@@ -149,7 +149,7 @@ body._lock {
 
 .header__logo {
   position: relative;
-  font-size: 24px;
+  font-size: 23px;
   padding: 7px 15px;
   border-radius: 50px;
   color: #f7f7f7;
@@ -756,10 +756,6 @@ body._lock {
 }
 
 @media (max-width: 1170px) {
-  .header__logo {
-    font-size: calc(19px + 5 * ((100vw - 320px) / 850));
-  }
-
   .menu__item:not(:last-child) {
     margin-right: calc(10px + 15 * ((100vw - 320px) / 850));
   }
