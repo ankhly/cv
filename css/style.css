@@ -131,6 +131,7 @@ body._lock {
   position: fixed;
   width: 100%;
   z-index: 16;
+  max-height: 66px;
 }
 
 .header__body {
@@ -239,6 +240,16 @@ body._lock {
   gap: 40px;
 }
 
+.footer__school {
+  width: 70px;
+  height: 70px;
+}
+
+.footer__school img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .footer__year {
   color: #ffffff;
   font-size: 18px;
@@ -259,6 +270,7 @@ body._lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .img img {
