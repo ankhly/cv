@@ -144,7 +144,8 @@ body._lock {
       -ms-flex-align: center;
           align-items: center;
   gap: 15px;
-  max-height: 66px;
+  min-height: 70px;
+  max-height: 70px;
 }
 
 .header__logo {
